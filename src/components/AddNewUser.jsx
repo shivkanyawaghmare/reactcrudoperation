@@ -14,10 +14,6 @@ function AddNewUser({ showModal, handleClose, handleSubmit, handleInputChange, n
                         <input type="number" className="form-control" id="id" name="id" value={newUser.id} onChange={handleInputChange} required />
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="userId" className="form-label">User Id</label>
-                        <input type="number" className="form-control" id="userId" name="userId" value={newUser.userId} onChange={handleInputChange} required />
-                    </div>
-                    <div className="mb-3">
                         <label htmlFor="title" className="form-label">Title</label>
                         <input type="text" className="form-control" id="title" name="title" value={newUser.title} onChange={handleInputChange} required />
                     </div>
